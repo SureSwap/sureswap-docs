@@ -24,7 +24,7 @@ search:
 # Aux links in header
 aux_links:
   "Open in Telegram":
-    - "https://t.me/SureSwapBot"
+    - "https://t.me/sureswap_uw_bot"
 aux_links_new_tab: true
 
 # Footer
