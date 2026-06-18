@@ -20,22 +20,13 @@ These chains support the complete feature set.
 | **Base** | EVM | ✓ | ✓ | ✓ | ✓ | ✓ |
 | **BSC** | EVM | ✓ | ✓ | ✓ | ✓ | ✓ |
 | **Arbitrum** | EVM | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **Optimism** | EVM | ✓ | ✓ | ✓ | ✓ | — |
+| **Unichain** | EVM | ✓ | ✓ | ✓ | ✓ | — |
 | **HyperEVM** | EVM | ✓ | ✓ | ✓ | ✓ | — |
 | **Plasma** | EVM | ✓ | ✓ | ✓ | ✓ | — |
 | **Abstract** | EVM | ✓ | ✓ | ✓ | ✓ | — |
 
 **Arbitrum** is also used for Hyperliquid Perps funding.
-
----
-
-## Bridge-supported via Mayan
-
-These chains are reachable as swap/bridge destinations via the Mayan provider but do not have a dedicated SureSwap wallet address:
-
-| Network | Swap (inbound/outbound) | Bridge |
-|---------|:-:|:-:|
-| **Optimism** | ✓ | ✓ |
-| **Unichain** | ✓ | ✓ |
 
 ---
 
@@ -52,6 +43,6 @@ Full swap and bridge support is coming soon for these networks.
 
 ## Notes
 
-- **EVM address**: one `0x…` address works on Ethereum, Base, BSC, Arbitrum, HyperEVM, Plasma, and Abstract
+- **EVM address**: one `0x…` address works on Ethereum, Base, BSC, Arbitrum, Optimism, Unichain, HyperEVM, Plasma, and Abstract
 - **Gas**: EVM transactions are gasless — SureSwap covers gas fees on all EVM chains
 - **CCTP**: Privacy Mode cross-chain withdrawals use Circle's CCTP, which supports Ethereum, Base, BSC, Arbitrum, and Solana

@@ -74,7 +74,10 @@ See [Privacy Mode](../privacy-mode/) for a full explanation of how this works.
 | Source | Destination | Provider |
 |--------|-------------|----------|
 | Solana token | Solana token | Jupiter |
-| EVM token | EVM token (same chain) | 0x / DEX aggregation |
+| EVM token | EVM token (same chain) | Routing engine + DEX aggregation |
 | EVM → Solana | Any | Mayan, Relay |
 | Solana → EVM | Any | Mayan, Relay |
 | EVM → EVM (cross-chain) | Any | Mayan, Relay, LayerZero |
+
+Fully supported EVM chains for same-chain swaps: **Ethereum**, **Base**, **BSC**, **Arbitrum**, **Optimism**, **Unichain**, **HyperEVM**, **Plasma**, **Abstract**.
+
