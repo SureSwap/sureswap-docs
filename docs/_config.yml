@@ -47,7 +47,7 @@ callouts:
     color: purple
   coming_soon:
     title: Coming Soon
-    color: grey
+    color: blue
 
 plugins:
   - jekyll-seo-tag
